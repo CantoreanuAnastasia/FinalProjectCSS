@@ -1,0 +1,269 @@
+body {
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    position: relative;
+    background-color: #030c15;
+    overflow: auto;
+}
+
+.Section1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    align-content: center;
+    margin-top: -400px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    height: 400px;
+
+}
+
+.ValarMorghulis {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+
+#title {
+    font-weight: 1000;
+    font-size: 55px;
+    font-family:'Uncial Antiqua', cursive;
+}
+
+#text {
+    margin-top: -30px;
+}
+
+
+
+
+.leftbar {
+    gap: 30px;
+    margin-left: 200px;
+
+}
+
+#HeaderTitle {
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-family:'Uncial Antiqua', cursive;
+    font-size: 17px;
+}
+
+.rightbar {
+    gap: 60px;
+    margin-left: 800px;
+}
+
+.rightbar, .leftbar  {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderBar {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,.5);
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    height: 100px;
+}
+
+
+#background {
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  top: 0;
+  height: 950px;
+  z-index: -2;
+  filter: brightness(1.5)
+}
+
+
+#faceless_men {
+    width: 50px;
+    height: fit-content;
+}
+
+
+
+.buttons-container h2 {
+    margin-bottom: 0;
+
+}
+
+.btn {
+    display: inline-block;
+    background: #060709;
+    text-decoration: none;
+    width: 400px;
+    height: 42px;
+    margin: 24px 0;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    text-transform: uppercase;
+
+    box-shadow: inset 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.btn.test-completed::after,
+.btn.test-completed::before {
+    content: "Say a name";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    line-height: 2.5;
+
+    transition: all 400ms;
+    top: 0;
+}
+
+.btn.btn.test-completed:hover::after {
+    top: -36px;
+}
+
+.btn.test-completed::before {
+    content: "And a man shall do the rest";
+    top: 36px;
+}
+
+.btn.btn.test-completed:hover::before {
+    top: 0;
+}
+
+
+.Section2 {
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    flex-direction: column;
+    
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+    color: #234155;
+    box-shadow: 50px 50px 100px black;
+    border-radius: 100px;
+
+}
+
+.information {
+    color: #fff;
+    margin-bottom: 150px;
+    font-size: 50px;
+    font-family: 'Uncial Antiqua', cursive;
+    text-shadow:0 0 10px #fff;
+}
+
+.Section3 {
+    display: flex;
+    color: #030c15;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-weight: 900;
+    font-family: Garamond, serif;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0px 1px 2px #030c15;
+}
+.Section4 {
+    display: flex;
+    color: #fff;
+    position: relative;
+    flex-direction: column;
+    object-fit: contain;
+    width: 100%;
+}
+.backgroundphoto {
+width: 100%;
+overflow: hidden;
+height: 750px;
+
+}
+
+ .q {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    border-radius: 10px;
+    flex-direction: row;
+    gap: 100px;
+
+
+ }
+
+
+.q2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.5);
+    padding: 50px 260px 40px ;
+    border-radius: 10px;
+    gap: 100px;
+    font-size: 20px;
+    font-family: 'Verdana'
+    
+    
+}
+
+#valadohaeris {
+    background: #111722;
+    border-style: dashed;
+    color: #fff;
+    border-radius: 4px;
+    border: 10px;
+    width: 200px;
+    height: 50px;
+    font-weight: 900;
+    font-family: 'Uncial Antiqua', cursive;
+    text-transform: uppercase;
+    
+}
+
+#valadohaeris:hover {
+    opacity: .5;
+    transition: 400ms;
+}
+    
+    
+ footer {
+    background-color: white;
+    display: flex;
+    height: 70px;
+    color:#030c15;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+ }
